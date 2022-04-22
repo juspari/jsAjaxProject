@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project 2</title>    
+</head>
+<body>
+    <div id="topbar">
+        <select name ="theaters" id = "theaterselect">
+            <option value="1038">Espoo Sello</option>
+            <option value="1039">Espoo Iso Omena</option>
+            <option value="1033">Helsinki Tennispalatsi</option>
+        </select>
+        
+        <button id="button1" onclick="loadData(today)">Tänään</button>
+        <button onclick="loadData(tomorrow)">Huomenna</button>
+        <button onclick="loadData(ylihuomenna)">Ylihuomenna</button>
+     
+    </div>
+    <div id="content">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
